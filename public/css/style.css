@@ -1,0 +1,249 @@
+* {
+    font-family: Helvetica;
+    box-sizing: border-box;
+    padding:0;
+}
+
+/* for all button (register & 2 mulai sewa mobil)*/
+.btn-success {
+    background-color: #5CB85F !important;
+    margin-top: 10px !important;
+    padding-top: 12px !important;
+    padding-bottom: 10px !important;
+}
+
+/* for general black colored words */
+.text-black {
+    font-weight: bold;
+}
+
+/* for some white colored words */
+.text-white {
+    font-weight: bold;
+}
+
+/* navbar section*/
+#navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-light {
+    background-color: #F1F3FF !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+/* hero section */
+#hero {
+    background-color: #F1F3FF !important;
+    padding-bottom: 30px;
+} 
+
+.hero-caption h2 {
+    font-size: 36px;
+    margin-top: 200px;
+}
+
+.hero-text p {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 5px 100px 5px 0px;
+    text-align: justify;
+}
+
+.hero-image {
+    margin-top: 100px;
+    max-width: 100%; 
+    height: auto;
+}
+
+/* our service section */
+#our-service {
+    background-color: #ffffff;
+    padding-top: 10px;
+}
+
+.our-service-image {
+    margin-top: 50px;
+    max-width: 100%; 
+    height: auto;
+}
+
+.our-service-caption h2 {
+    font-size: 24px;
+    margin-top: 80px;
+}
+
+.our-service-text p {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 5px 100px 5px 0px;
+    text-align: justify;
+}
+
+.our-service-list {
+    font-size: 14px;  
+    padding: 10px 10px 10px 0px;
+}
+
+/* why us section */
+#why-us {
+    padding-top: 50px;
+}
+
+.why-us-caption h2 {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.why-us-text p {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.why-us-cards h5 {
+    font-size : 16px;
+    margin-top: 20px;
+}
+
+/* testimonials */
+#testimonials {
+    padding-top: 50px;
+}
+
+.testimonials-caption h2 {
+    font-size: 24px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimonials-text p {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.stars-box {
+    color: #ffff00;
+}
+
+.content .text-black {
+    font-size: 12px;
+} 
+
+/* carousel testimonial box */
+.single-box {
+    background-color: #F1F3FF !important;
+	border: 3px solid #e6f0fa;
+    border-radius: 10px;
+	padding: 20px 5px 10px;
+    overflow: hidden;
+}
+
+.single-box .img-area {
+    float: left;
+    margin: 0;
+    padding: 25px 5px 5px 5px;
+}
+
+.single-box .content {
+	float: left;
+	padding-left: 10px;
+    width: 70%;
+}
+
+.single-box p {
+	margin: 10px 0px 10px 0px;   
+    text-align: justify;
+    font-size: 12px;
+}
+
+/* for responsive version */
+@media (min-width: 481px) and (max-width: 767px) {
+    .owl-carousel .owl-item img {
+        display: block !important;
+        margin: 10px 170px 10px 160px;
+        padding: 10px 10px 10px 10px;
+        width: auto! important;
+    }
+
+    .stars-box {
+        display: flex;
+        margin: 10px 170px 10px 160px;
+    }
+
+    .single-box p {
+        margin: 20px -100px 10px 20px;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .content .text-black {
+        margin: 20px -100px 0px 150px;
+    }
+}
+
+/* banner */
+#banner {
+    padding-top: 100px;
+}
+
+.banner-card {
+    background: #0D28A6;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.banner-caption h2{
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+.banner-text h6 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 15px;
+    position: relative;
+}
+
+/* faq */
+#faq {
+    padding-top: 50px;
+}
+
+.faq-caption h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.faq-text p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.all-accordion {
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* footer */
+#footer {
+    font-size: 14px;
+    padding-top: 100px;
+}
+
+.icon-holder img {
+    margin-top:5px
+}
